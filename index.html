@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Table</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        caption {
+            font-size: 1.5em;
+            margin: 10px 0;
+            font-weight: bold;
+        }
+        .total-row {
+            text-align: center;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>STUDENT TABLE</caption>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Address</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>xyz</td>
+                <td>AIML</td>
+                <td>DELHI</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>abc</td>
+                <td>IoT</td>
+                <td>Greater Noida</td>
+            </tr>
+            <tr>
+                <td>103</td>
+                <td>def</td>
+                <td>CSE</td>
+                <td>Bihar</td>
+            </tr>
+            <tr>
+                <td>104</td>
+                <td>ghi</td>
+                <td>MCA</td>
+                <td>Gaya</td>
+            </tr>
+            <tr>
+                <td>105</td>
+                <td>hij</td>
+                <td>EEE</td>
+                <td>Kochi</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4" class="total-row">Total student count: 5</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
